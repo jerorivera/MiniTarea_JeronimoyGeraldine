@@ -1,3 +1,5 @@
+//JERONIMO RIVERA Y GERALDINE FLOREZ
+
 import java.util.Scanner;
 
 public class MiniTarea {
@@ -17,6 +19,13 @@ public class MiniTarea {
 
         int multiplicacion = numero1 * numero2;
         System.out.println("La multiplicación de " + numero1 + " y " + numero2 + " es " + multiplicacion);
+        if (numero2 != 0) {
+            double division = (double)numero1 / (double)numero2;
+            System.out.println("La división de " + numero1 + " y " + numero2 + " es " + division);
+        } else {
+            System.out.println("No es posible dividir por cero.");
+        }
 
+        input.close();
     }
 }
